@@ -1,0 +1,227 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+.main{
+    width: 100%;
+  background: url(1.jpg);
+    height: 8223px;
+}
+.navabar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 150px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: rgba(221, 224, 226, 0.973);
+    font-size: 28px;
+    font-family: Arial;
+    padding-left: 30px;
+    float: left;
+    padding-top: 30px;
+}
+.menu{
+    width: 300px;
+    float: left;
+    height: 70px ;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(55, 131, 212);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+color: darkturquoise;
+}
+.search
+{
+    width: 279px;
+    float: center;
+    margin: 270px;
+}
+.srch{
+
+    font-family: 'Times New Roman';
+    width: 590px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #a2b12c;
+    margin-top: 13px;
+    color: rgb(185, 239, 253);
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width:200%;
+    height: 40px;
+    background: #bfbcc0;
+    border: 2px solid rgb(212, 220, 217);
+    margin-top:13px ;
+    color: rgb(16, 17, 17);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(101, 216, 178);
+    position: relative;
+} 
+.content.par{
+    padding-left:50px ;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(16, 127, 147);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+transition: .4s ease;
+}
+.content .cn a{
+text-decoration: none;
+color: rgba(65, 190, 11, 0.96);
+transition: .3s ease;
+}
+.cn:hover{
+    background-color: #ff7200;
+
+}
+.content span{
+    color: rgb(79, 228, 178);
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, transparent);
+    top:-20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(128, 215, 35);
+    font-size: 22px;
+    background-color: rgb(26, 14, 99);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(32, 31, 26);
+    border-top: none;
+    border-left: none;
+    color: rgb(136, 21, 21);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input :focus{
+outline: none;
+}
+::placeholder{
+    color: rgb(220, 199, 13);
+    font-family: Arial;
+}
+
+
+btnn{
+width: 240px;
+height: 40px;
+background:orange;
+border: none;
+margin-top:30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color:rgb(24, 220, 125);
+transition: 0.4s ease-in-out;
+}
+.btnn:hover{
+    background: rgb(202, 18, 18);
+    color: #a5ee1d;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form.link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form.link.a{
+    text-decoration: none;
+    color: crimson;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(199, 233, 63);
+
+}
