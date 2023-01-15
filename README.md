@@ -1,5 +1,5 @@
 # Book-Recommendation-System
- An AI Based Book Recommendation System based on user reading preferences and history. Collaborative filtering (CF) is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.We have 2 models in this repo. The main model will be called ** "THE PRIME MODEL" ** and the smaller model will be called ** "THE CHILD" **.
+ An AI Based Book Recommendation System based on user reading preferences and history. Collaborative filtering (CF) is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.We have 2 models in this repo. The main model will be called **"THE PRIME MODEL"** and the smaller model will be called **"THE CHILD"**.
  
  ## Method Used
  We used the method of collaborative filtering to predict the books. <br>
